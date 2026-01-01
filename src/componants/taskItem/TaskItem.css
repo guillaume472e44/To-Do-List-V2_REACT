@@ -1,0 +1,36 @@
+li {
+  display: flex;
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2b2a33;
+  border-radius: 8px;
+  padding: 0 0 0 16px;
+  margin-top: 16px;
+  &:hover {
+    background-color: #242428;
+  }
+
+  &.success {
+    background-color: rgba(91, 144, 91, 0.273);
+    font-style: italic;
+    text-decoration: line-through;
+  }
+
+  & div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  & button {
+    background-color: crimson;
+    width: fit-content;
+
+    &:hover {
+      border: 1px solid whitesmoke;
+      box-shadow: 0 0 8px 0px crimson;
+      background-color: red;
+    }
+  }
+}
